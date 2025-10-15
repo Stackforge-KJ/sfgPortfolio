@@ -7,7 +7,10 @@
     
 }
 
-
+body{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
 
 
 .top {
@@ -90,8 +93,6 @@
 }
 
 /* ------Hero  section-------- */
-    .phone{display: none;}
-
    .slideshow { 
     position: relative;
     width: 70%;
@@ -111,12 +112,6 @@
    }
 
 
-   /* .img-one { animation-delay: 0s; }
-   .img-two { animation-delay: 2s; }
-   .img-three { animation-delay: 4s; }
-   .img-four { animation-delay: 6s; }
-   .img-five { animation-delay: 10s; }
-   .img-six { animation-delay: 12s; } */
 
 .img-one{animation-name:fade1;}
 
@@ -131,12 +126,6 @@
 .img-six{animation-name:fade6 ;}
    
 
-   /* @keyframes fade  {
-    0% { opacity: 0; }
-    5% {opacity: 1;}
-    15%{opacity: 1;}
-    20%{opacity: 1;}
-    100%{opacity: 0;}} */
 
 
 
@@ -227,6 +216,21 @@
     
 }
 
+h1 {
+    font-size: 6em;
+    font-weight: 600;
+    padding: 20px;
+    margin: auto;
+    color: black;
+    
+}
+
+.hero-left p {
+    font-size: 1.6em;
+    padding: 0px 20px;
+   
+} 
+
 @media(max-width:1280px){
     #hero{
         width: 100%;
@@ -278,118 +282,100 @@
     }
 }
 
-@media(max-width:580px){
+
+
+@media (max-width: 620px) {
+    
+    .slideshow {
+        display: none;
+    }
+
+
     #hero{
-         width: 100%;
-        height: 90vh;
+
+        width: 100%;
+        /* height: 90vh; */
         background-image: url(./images/pexels-zba-banner-2156097684-34036546.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         overflow: hidden;
-        /* filter: blur(10px);
-        transform: scale(1.1);   */
+       
 
     }
 
-    .hero-left{
-        /* display: flex;
-        flex-direction: column; */
-        
+    .hero-left p{
+        display: none;
     }
-        
-    
-    .hero-left h1{
-        font-size: 8em;
-        color: black;
+
+     .hero-left h1{
+        font-size: 4em;
         position: relative;
-        top: 180px;
-        right: 70px;
-        text-align: center;
+        top: 50px;
+        right: 20px;
+        
     }
-    .hero-left p {
-    font-size: 3em;
-    padding: 0px 0px;
-    position: relative;
-        top: 190px;
-        right: 80px;
-   
+
+
 }
+
     
-}
-
-
-
-h1 {
-    font-size: 6em;
-    font-weight: 600;
-    padding: 20px;
-    margin: auto;
-    color: black;
-    
-}
-
-.hero-left p {
-    font-size: 1.6em;
-    padding: 0px 20px;
-   
-}
-
 
 @media(max-width:500px){
     #hero{
-        /* width: 100%;
-        height: 90vh;
-        
-        z-index: -1;
-        position: relative; */
+        height: 100vh;
+    }
+.hero-left h1{
+        font-size: 3em;
+        position: relative;
+        top: 50px;
+        right: 60px;
+
+}
+
+.hero-left p{
+    display: block;
+    font-size: 1em;
+    position: relative;
+    top: 30px;
+    right: 60px;
+
+}
+}
 
 
+@media(max-width:358px){
+    #hero{
+        width: 85%;
     }
 
-    
-    .slideshow{
-        display:none;
-    
-    }
-    
-
-    
     .hero-left h1{
-        text-align: center; 
         font-size: 2em;
-        color: black;
-        /* top: 200px;  */
-       
     }
-   
-    .hero-left p {
-    text-align: center;
-    font-size: .8em;
-    padding: 0px 0px;
-   
+    .hero-left p{
+        font-size: .7em;
+    }
+
 }
-    
-}
+
+
+
+
+
 
 
 
 
 /* ....BODY.... */
 
-body{
-    
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} 
-
 
 
 .bodyy {
-    padding: 5em;
+    padding: 7em;
     display: flex;
     gap: 7em;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -410,14 +396,14 @@ body{
 
 
 .first-side img {
-    width: 25em;
+    width: 35em;
 }
 
 .second-side {
     /* border: 2px solid red; */
     display: flex;
     flex-direction:column ;
-    padding: 20px 0px;
+    padding: 10px 0px;
 
 }
 
@@ -429,8 +415,8 @@ body{
     font-weight: 900;
 }
 
-h6 {
-    padding-top: 20px; padding-bottom: 30px;
+.second-side h6 {
+    padding-top: 10px; padding-bottom: 20px;
     font-size: 20px;
     font-weight: 200;
 
@@ -447,11 +433,20 @@ h6 {
 
 }
 
+.one-nexxt{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+  
+    gap: 3em;
+}
+
 .nexxt {
+    display: flex;
     background-color: black;
     width: 200px;
-    text-align: center;
     padding: 25px 0px;
+    padding-left: 25px;
     font-size: 1.6em;
     color: white;
     border: 4px solid black;
@@ -489,27 +484,28 @@ h6 {
     }
 }
 
-@media(max-width:550px){
+@media (max-width:550px){
 
      #hero {
         height: 90vh;
         justify-content: center;
         align-items: center;
-        /* background-image: url(../PORTFOLIO/PORTFOLIO-IMAGES/lady-phone.jpg); */
 
     }
    
-    /* .slideshow{
-        width: 100%;
-    } */
+   
     .first-side{
         display: flex;
         justify-content: center;
-        align-items: ;
+       
 
     }
     .first-side img{
         width: 100%;
+    }
+
+    .one-nexxt {
+        flex-wrap: wrap;
     }
 }
 
@@ -660,24 +656,22 @@ display: flex;
 /* =========FEATURED WORKS========== */
 
 .featured{
-     /* margin-top: 50px; */
+    display: flex;
+    justify-content: center;
     background-color:#C6C7C9;
-    /* padding-bottom: 60px;  */
 }
 
-.featured h3{
-     padding: 60px 0px 0px 0px;
+.main-featured h3{
+    padding: 150px 0px 50px 0px;
     text-align: center;
     font-size: 3em;
-    font-weight: 500; 
+    font-weight: 700; 
+    text-decoration: underline;
 }
 .projects {
      position: relative;
     border: 2px solid black;
     transition: 2s ease; 
-/* margin: auto; */
-    
-    
 }
 
 
@@ -688,9 +682,7 @@ display: flex;
  height: 60em;
  width: 100%;
  gap: 2em;
- /* margin: auto; */
- /* border: 2px solid red; */
- padding: 30px;
+ overflow: hidden;
 }
 
 
@@ -728,6 +720,20 @@ display: flex;
 } 
 
 
+@media ( max-width:1022px){
+
+
+    .works {
+        grid-template-columns: auto auto auto;
+    }
+    
+    .featured{
+        flex-wrap: wrap;
+    }
+
+}
+
+/* 
  .projects img {
     width: 100px;
     position:absolute ;
@@ -735,9 +741,9 @@ display: flex;
     top: 70px;
     transition: 2s ease;
    
-} 
+}  */
 
-.scale-img {
+/* .scale-img {
     transition: 2s ease;
 }
 
@@ -745,7 +751,7 @@ display: flex;
     .scale-img{
     transform: scale(1.5);
     }
-}
+} */
 
 
 
@@ -753,7 +759,7 @@ display: flex;
  
 }
 
-/* ========  LATEST NEWS========== */
+/* ========  LATEST NEWS   ========== */
 
 
 
@@ -769,8 +775,8 @@ display: flex;
 .latest-news{
     display: flex;
     justify-content: center;
-    gap: 2em;
-    padding: 10px 30px 120px 30px;
+    gap: 2.5em;
+    padding: 5px 30px 150px 30px;
     background-color: #F8F9FA;
     margin: auto;
 }
@@ -785,26 +791,26 @@ display: flex;
 
 
 .crd-head{
-    font-size: 20px;
+    font-size: 18px;
    color: grey;
-   padding: 10px;
+   padding-left: 10px;
 }
 
 .crd-body{
-    font-size: 15px;
+    font-size: 14px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .services h6{
    
-    
     font-size: 2em;
     font-weight: 700;
     
 }
 
 .services {
-     margin-top: 30px;
+    margin-top: 50px;
     background-color: #F8F9FA;
     display: flex;
     justify-content: center;
@@ -815,11 +821,27 @@ display: flex;
 
 @media ( max-width:1022px){
     .latest-news {
-        
+        width: 100%;
         flex-wrap: wrap;
     }
 
 }
+
+
+@media (max-width:320px) {
+    .card{
+        width: 320px;
+        height: 320px;
+        
+        
+    }
+
+    .crd-img{
+       padding-right: 50px;
+    }
+    
+}
+
 
 
 
@@ -948,12 +970,12 @@ input{
         .get-in-touch{
             width: 300px;
             height: 400px;
-            margin-bottom: ;
+            
         }
 
         input{
          width: 15em; 
-        height: 2em;
+        height: 1.8em;
     }
 
     .contactt h5 {
@@ -963,13 +985,16 @@ input{
     }
     
     .contactt p {
-        padding: 0px 20px;
+        padding: 0px 15px;
         font-size: 1em;
     }
 
     .btnn{
-    font-size: 1em;
-    padding: 10px;
+    font-size: .8em;
+    padding: 5px;
+    }
+    .frm {
+        padding-bottom: 5px;
     }
 }
 
