@@ -282,7 +282,7 @@
     #hero{
          width: 100%;
         height: 90vh;
-        background-image: url(./PORTFOLIO-IMAGES/projects/pexels-zba-banner-2156097684-34036546.jpg);
+        background-image: url(./images/pexels-zba-banner-2156097684-34036546.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -548,7 +548,7 @@ h6 {
 
 .mve{ 
 display: flex;
-padding: 20px;
+
 
 }
 .im-crd{
@@ -590,17 +590,30 @@ padding: 20px;
 }
 
 
+/* .mve-p {
+    border: 2px solid red;
+    width: 260px;
+    height: 260px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto ;
+} */
+
+
 .bg h4{
     display: inline-block;
     justify-content: center;
-    padding: 0px 20px 40px 0px;
+    padding: 0px 5px 5px 0px;
     font-size: 1.4em;
     font-weight: 700;
 }
 
-.bg p{
+.mve-p p {
     
-   
+    font-size: .7em; 
 }
 
 .blob {
