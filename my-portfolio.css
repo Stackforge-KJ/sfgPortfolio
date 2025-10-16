@@ -27,7 +27,7 @@ body{
     align-items: center;
     background-color: whitesmoke;
     position: fixed;
-    z-index: 5;
+    z-index: 33333;
 }
 .fa-solid {
     display: none;
@@ -373,11 +373,11 @@ h1 {
 /* ....BODY.... */
 
 .bodyy {
-    padding: 7em;
+    padding: 2em;
     display: flex;
-    gap: 7em;
+    gap: 5em;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     overflow: hidden;
 
 }
@@ -413,7 +413,7 @@ h1 {
 
  h2 {
     
-    font-size: 30px;
+    font-size: 3em;
     font-weight: 900;
 }
 
@@ -472,7 +472,7 @@ h1 {
 
     
 .boddy img {
-    width: 100%;
+    width: 90%;
     padding: 0px;
 
 }
@@ -520,7 +520,7 @@ h1 {
 
     }
     .first-side img{
-        width: 100%;
+        width: 90%;
     }
 
     .one-nexxt {
@@ -534,39 +534,48 @@ h1 {
 
 .marq{
     background-color:#C6C7C9 ;
-    height: 300vh;
-    /* padding: 50px 0px; */
+    /* height: 300vh; */
+    padding: 0px 30px 80px 30px; 
 }
 
 .skill{
-    padding: 30px;
+    padding: 30px 50px;
     background-color: black;
     border: 2px solid whitesmoke;
     color: white;
     text-align: center;
     font-size: 3em;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
- .skl-h:hover {
+.skl-h{
+    padding-top: 10px;
     display: inline;
     border: 2px solid white;
     border-radius: 50px;
-    padding: 10px 25px;
+    padding: 10px 40px;
 }
+
+
 .moving{
-    padding: 20px 0px;
+    /* padding: 50px 0px; */
     display: flex;
-    justify-content: center;
-    gap: 4em;
+    justify-content: space-evenly;
+    gap: 3em;
+    background-color: darkblue;
    
 }
+/* .card{
+    display: inline-block;
+} */
 
-.mve{ 
-display: flex;
+/* .mve{ 
+display: inline-block;
 
+}  */
 
-}
 .im-crd{
     width: 50px;
     height:50px;
@@ -917,7 +926,7 @@ display: flex;
 
 @media (max-width:856px){
     .grd{
-        height: 1800px;
+        height: 1850px;
     }
     .my-projj {
         flex-direction: column;
