@@ -50,6 +50,10 @@ body{
      color: black; 
 }
 
+.menu li a:hover{
+    text-decoration: underline;
+}
+
 
 @media(max-width:960px) {
     
@@ -108,7 +112,6 @@ body{
 
    .slides {
     position: absolute;
-    /* width: 80%; */
     height: 100%;
     opacity: 0;
     animation: fade 12s linear infinite;
@@ -217,7 +220,6 @@ body{
     top: 70px;
     z-index: 2;
     border: none;
-    
 }
 
 h1 {
@@ -234,6 +236,14 @@ h1 {
     padding: 0px 20px;
    
 } 
+
+
+@media(max-width:1440px){
+    .slideshow{
+        
+    }
+}
+
 
 @media(max-width:1280px){
     #hero{
@@ -298,7 +308,6 @@ h1 {
     #hero{
 
         width: 100%;
-        /* height: 90vh; */
         background-image: url(./images/pexels-zba-banner-2156097684-34036546.jpg);
         background-size: cover;
         background-position: center;
@@ -418,9 +427,9 @@ h1 {
 }
 
 .second-side h6 {
-    padding-top: 10px; padding-bottom: 20px;
-    font-size: 20px;
-    font-weight: 200;
+    padding-top: 20px; padding-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: 400;
 
 }
 
@@ -437,15 +446,19 @@ h1 {
 
 .one-nexxt{
     display: flex;
-    justify-content:center ;
+    justify-content:space-between ;
     align-items: center;
-    gap: 3em;
-    padding: 25px;
+    gap: 2em;
+    padding: 10px 50px;
+    
 }
+
+
 
 .nexxt {
     display: flex;
     background-color: black;
+    border: 2px solid red;
     /* width:10rem ; */
     padding: 10px 10px;
     padding-left: 10px;
@@ -461,6 +474,8 @@ h1 {
 .nexxt:hover {
     background-color: white;
     color: black;
+    border-radius: 50px;
+    transform: scale(1.3);
 }
 
 @media (max-width:1100px){
@@ -534,8 +549,7 @@ h1 {
 
 .marq{
     background-color:#C6C7C9 ;
-    /* height: 300vh; */
-    padding: 0px 30px 80px 30px; 
+    /* padding: 0px 30px 80px 30px;  */
 }
 
 .skill{
@@ -545,7 +559,7 @@ h1 {
     color: white;
     text-align: center;
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -559,14 +573,16 @@ h1 {
 }
 
 
+
 .moving{
     /* padding: 50px 0px; */
     display: flex;
     justify-content: space-evenly;
     gap: 3em;
-    background-color: darkblue;
+    align-items: center;
    
 }
+
 /* .card{
     display: inline-block;
 } */
@@ -686,6 +702,7 @@ display: inline-block;
 /* =========FEATURED WORKS========== */
 #prjt{
     overflow: hidden;
+    /* margin-top: 50px; */
 }
 
 
@@ -693,8 +710,9 @@ display: inline-block;
     display: grid;
     grid-template-columns: repeat(35, 1fr);
     grid-template-rows: repeat(35, 1fr);
-    height: 1200px;
+    height: 1100px;
     gap: 2em;
+   
 }
 
 
@@ -752,9 +770,7 @@ display: inline-block;
     border: 4px solid white;
     
 }
-.ftrd {
-   
-}
+
 .ftrd img{
     width: 130px;
     float: left;
@@ -767,34 +783,40 @@ display: inline-block;
     padding: 10px;
 }
 
+.ftrd h6{
+    margin-top: 5px;
+    font-size: 1em;
+}
+
 
 
 .ftrd:hover{
     img{
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
+}
+
+.ftrd1:hover{
+    h4{transform: scale(1.2);}
+    color: white;
 }
 .pro-btnn{
     
-    padding: 3px;
-    background-color: black;
-    color: white;
+    color: blue;
     margin-left: 10px;
     border-radius: 10px;
 
-    
 }
 
 .pro-btnn:hover{
-    background-color: white;
-    color: black;
-    
+    a{transform: scale(1.2);}
 }
 
-.ftrd1{
+
+
     
    
-}
+
 
 .ftrd1 h4{
     font-size: 2rem;
@@ -946,9 +968,6 @@ display: inline-block;
 }
 
 
-.pro-btnn{
-    display: none;
-}
 
 
 
@@ -1113,9 +1132,6 @@ input{
 }
 
 
-.map {
-    
-}
 .get-in-touch{
     border: 4px solid black;
     border-radius: 20px;
@@ -1224,9 +1240,6 @@ input{
     color: white;
 }
 
-.fttr-four{
-
-}
 
 .fttr-four img{
     width: 50px;

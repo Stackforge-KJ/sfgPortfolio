@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+.head {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    gap: 20px;
+    padding: 35px 120px;
+    background-color: #F5F5EE;
+}
+
+
+
+.head-right {
+    display: flex;
+    justify-content:space-between ;
+    gap: 30px;
+    
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.head-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.head-left a { padding: 20px 35px;
+    background-color: #EE5D19;
+     border-radius: 10px;
+     color: white;
+     font-size: 25px;
+     font-weight: 500;
+
+}
+
+.head-left p {
+    color: #1a1919;
+    font-size: 1.4em;
+}
+
+.menu li a {
+    color:  #1a1919;
+    font-size: 1.4em;
+}
+
+
+
+
+.menu-drop {
+    position:relative ;
+}
+
+
+.dropdown {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    width: 300px;
+    border: 2px solid red;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.menu-drop:hover .dropdown{
+    display: block;
+}
+
+ .dropdown li {
+    
+    padding: 20px;
+    
+} 
+
+.dropdown li:hover {
+    background-color: grey;
+}
+
+
+
+/* HERO SECTION */
+.hero {
+    border: 2px solid red;
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    position: relative;
+    /* margin-top: 20px; */
+    border: none;
+}
+
+
+.ycomb {
+    width: 800px;
+    height: 400px;
+    padding: 5em;
+    
+    }
+
+h1 {
+position: absolute;
+left: 150px;
+top: 250px;
+font-size: 4.4em;
+color: #EE5D19;
+
+}
+
+.ycomb p {
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    font-size: 1.5em;
+    color:#000000 ;
+}
+
+.ycomb a {
+    position: absolute;
+    left: 150px;
+    top: 440px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background-color: #EE5D19;
+    padding: 20px 70px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight:600 ;
+}
+
+
+.ycomb a:hover {
+    background-color: #e6c6b8;
+    color: #000000;
+}
+
+.imag {
+    position: absolute;
+    left: 1000px;
+
+}
+
+.imag img {
+    width: 65em;
+}
+
+
+
+.card-one {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #F5F5EE;
+    position: absolute;
+    top: 120px;
+    padding: 70px 120px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 2.8em;
+    font-weight: 900;
+    color: #EE5D19;
+}
+.card p {
+font-size: 1.6em;
+color: black;
+}
+
+
+
+.card-two {
+   display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #F5F5EE;
+    position: absolute;
+    padding: 70px 100px;
+    border-radius: 10px; 
+}
+
+
+
+
+
+
+
