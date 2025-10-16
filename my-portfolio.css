@@ -720,6 +720,7 @@ display: inline-block;
 .wrk-1{
     /* background-color: coral; */
     grid-area: 2 / 8 / 6 / 27;
+   
 
 }
 
@@ -766,6 +767,8 @@ display: inline-block;
 /* ========================= */
 
 .my-projj {
+   
+    
     background-color: #B9B9B9;
     border: 4px solid white;
     
@@ -773,6 +776,7 @@ display: inline-block;
 
 .ftrd img{
     width: 130px;
+    height: 130px;
     float: left;
     padding: 10px;
     
@@ -784,6 +788,7 @@ display: inline-block;
 }
 
 .ftrd h6{
+
     margin-top: 5px;
     font-size: 1em;
 }
