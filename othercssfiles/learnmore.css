@@ -15,6 +15,133 @@ body{
 
 }
 
-h1{
-    font-size: 1.5em;
+.top {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 33333;
 }
+
+.fa-solid {
+    display: none;
+    color: black;
+}
+
+.logo {
+    width: 220px;
+}
+
+.menu {
+    display: flex;
+    gap: 1.2em;
+    align-items: center;
+    color: #858484a8;
+    font-size: 1.2em;
+    color: black;
+}
+
+.menu li a {
+    color: black;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+
+@media(max-width:960px) {
+
+    .menu {
+        gap: 1em;
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width:850px) {
+    .logo {
+        width: 180px;
+    }
+
+    .top {
+        padding: 30px 50px;
+    }
+}
+
+
+@media(max-width:680px) {
+    .logo {
+        width: 150px;
+    }
+
+    .menu {
+        gap: 0.8em;
+        font-size: 1em;
+    }
+}
+
+
+@media(max-width:620px) {
+    .logo {
+        width: 100px;
+    }
+
+    .menu {
+        gap: .5em;
+    }
+}
+
+@media(max-width:490px) {
+    .top {
+        padding: 10px 35px;
+    }
+
+    .menu li {
+        display: none;
+    }
+
+    .fa-solid {
+        display: block;
+    }
+}
+/* ===================== body =========================== */
+
+.expp{
+    width: 80%;
+    height: ;
+    background-color: red;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 60px 0px 10px;
+}
+
+
+.experience{
+    padding-top: 110px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    height: 80vh;
+    
+
+}
+
+.wpd{
+    width: auto;
+    height:200px;
+    background-color: white;
+
+
+}
+
+
+
+
