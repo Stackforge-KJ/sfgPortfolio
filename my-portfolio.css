@@ -429,7 +429,7 @@ h1 {
     #hero {
 
         width: 100%;
-        background-image: url(./images/pexels-zba-banner-2156097684-34036546.jpg);
+        background-image: url(./images/pexels-zba-banner-2156097684-34036546.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -847,8 +847,8 @@ display: inline-block;
     display: grid;
     grid-template-columns: repeat(35, 1fr);
     grid-template-rows: repeat(35, 1fr);
-    height: 1100px;
-    gap: 2em;
+    height: 1250px;
+    gap: .8em;
 
 }
 
@@ -904,6 +904,10 @@ display: inline-block;
 
 /* ========================= */
 
+
+
+
+
 .grd {
     margin-top: 50px;
     background-color: #c2c6c971;
@@ -938,8 +942,9 @@ display: inline-block;
 }
 
 /* .ftrd p {
-    padding: 10px;
-} */
+    display: flex;
+    flex-wrap: wrap;
+}  */
 
 .ftrd h6 {
 
@@ -1094,6 +1099,11 @@ display: inline-block;
     opacity: 1;
 }
 
+@media(min-width:1000px){
+    .grd{
+
+    }
+}
 
 
 
@@ -1104,7 +1114,7 @@ display: inline-block;
         flex-wrap: wrap;
         justify-content: space-evenly;
         height: auto;
-        /* gap: 1em; */
+        
     
 
 
@@ -1116,12 +1126,6 @@ display: inline-block;
 
     .ftrd img {
         width: 45%;
-    }
-
-    .my-projj {
-        /* width: 60%;
-        margin: auto; */
-
     }
 
 
@@ -1141,8 +1145,7 @@ display: inline-block;
     }
 
     .ftrd img {
-        /* max-width: 280px; */
-        /* float: none; */
+        
         padding: 10px;
     }
 }
