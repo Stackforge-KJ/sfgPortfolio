@@ -768,17 +768,12 @@ display: inline-block;
 }
 
 
-/* .mve-p {
-    border: 2px solid red;
-    width: 260px;
-    height: 260px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin:auto ;
-} */
+.mve-p p {
+
+    font-size: 1em;
+    
+}
+
 
 
 .bg h4 {
@@ -789,11 +784,6 @@ display: inline-block;
     font-weight: 700;
 }
 
-.mve-p p {
-
-    font-size: .6em;
-    margin-right: 6px;
-}
 
 .blob {
     position: absolute;
